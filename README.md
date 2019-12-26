@@ -5,7 +5,7 @@ Some notes on Open Targets
 Tricky because elastic4s examples are for ES 6.x, not 7.x.
 
 In a Jupyter notebook with the Almond kernel, assuming you're running an ES instance with the OT P indices loaded and serving on `localhost:9200`
-```
+```scala
 import $ivy.`com.sksamuel.elastic4s::elastic4s-core:7.3.4`
 import $ivy.`com.sksamuel.elastic4s::elastic4s-client-esjava:7.3.4`
 
